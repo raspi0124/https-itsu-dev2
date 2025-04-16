@@ -1,3 +1,5 @@
+- [第27回プログラミングおよびプログラミング言語ワークショップ PPL 2025（2025年3月4~7日）](https://jssst-ppl.org/workshop/2025/program.html)
+  - 野牧 樹，中井 央 ブラウザで実行されるWebアプリケーションのためのJVM（口頭発表 / ポスター）
 - [第 57 回情報科学若手の会（2024年9月14〜16日）](https://wakate.org/2024/11/18/57threport/)
   - [JVM は Web フロントエンド開発の夢を見るか？（ショート発表）](https://speakerdeck.com/chururi/jvm-ha-web-hurontoendokai-fa-nomeng-wojian-ruka)
   - [絵文字を実行する（LT）](https://speakerdeck.com/chururi/hui-wen-zi-woshi-xing-suru)
