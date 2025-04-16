@@ -1,13 +1,15 @@
 .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
   background-color: white;
   padding: 2rem;
   box-shadow: 0 0 22px -15px #aaaaaa;
   border-radius: 0.8rem;
+}
+
+.flexWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .icon {
@@ -59,7 +61,7 @@
 }
 
 @media (max-width: 768px) {
-  .wrapper {
+  .flexWrapper {
     flex-direction: column;
   }
 
@@ -88,4 +90,62 @@
       font-size: 0.8rem;
     }
   }
+}
+
+.others {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 1rem;
+  width: 100%;
+  margin: 0 auto;
+
+  .row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
+    p {
+      margin: 0;
+      padding: 0.2rem 0;
+    }
+
+    .rowTitle {
+      text-align: right;
+      border-right: black solid 1px;
+      padding-right: 1rem;
+      color: #2d7282;
+    }
+
+    .rowContent {
+      padding-left: 1rem;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.label {
+  font-size: 0.8rem;
+  border-radius: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border: black solid 1px;
+  background-color: rgba(175, 61, 185, 0.46);
+  color: #df4cee;
+  margin-right: 0.5rem;
+}
+
+.labelCOJT {
+  border-color: #af3db9;
+  background-color: rgba(219, 79, 231, 0.28);
+  color: #ef45ff;
+}
+
+.labelPRO {
+  border-color: #b9753d;
+  background-color: rgba(231, 184, 85, 0.24);
+  color: #ffa300;
 }
